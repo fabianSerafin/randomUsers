@@ -1,0 +1,63 @@
+/*
+  Author: Jonathan Serafin
+  Date: June 17th 2019
+*/
+
+.userProfile{
+  background-image: url(../img/background.jpg);
+  height: 250px;
+}
+
+.lblWhite{
+  color: white;
+}
+
+.lblTitle{
+  font-weight: bold;
+  color: #8a8a8a !important;
+}
+.user{
+  border:1px solid;
+  border-color:#c5c5c5;
+  padding-right:0px !important;
+  padding-left:0px !important;
+  height: 50%;
+}
+
+.imgProfile{
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.img-rounded{
+  border-radius: 50%;
+ }
+
+ ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+li {
+  cursor: pointer;
+  width: 300px;
+  border-radius: 25px;
+  margin:7px;
+  flex: 1 0 calc(50% - 20px); // 20px is gutter size -- can set to any value
+  max-width: calc(50% - 20px); // 20px is gutter size -- can set to any value
+}
+
+ul li:hover, ul li:focus {
+  padding: 5px 10px;
+  background-color: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  border-radius: 25px;
+}
+
+.centerDiv {
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User directory</title>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="img/user.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/list.min.js"></script>
+    <script src="js/usersList.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/random.css">
+  </head>
+  <body style="padding:20px">
+    <div class="row">
+      <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1>Users</h1>
+        <label>If you want to get contact information to specific user, just click on it</label>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" style="">
+        <div class=" col-lg-8col-md-6 col-sm-6 col-xs-12">
+
+          <div id="results">
+            <div id="users">
+               <input class="search form-control" placeholder="Search" style="margin:10px"/>
+               <ul class="list">
+               </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 user" style="">
+
+          <div class="container-fluid">
+            <div class="row userProfile">
+              <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 centerDiv my-auto">
+                <img id="imgUser" src="img/background.jpg" class="imgProfile align-self-center"><br>
+                <b><label id="lblName" class="lblWhite">Nombre</label></b><br>
+                <label id="lblUser" class="lblWhite">Usuario</label>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="container-fluid">
+            <div class="row">
+              <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <span class="lblTitle">Address</span><br>
+                <label id="lblAddress"></label><br>
+                <span class="lblTitle">Email</span><br>
+                <label id="lblEmail"></label><br>
+                <span class="lblTitle">Cell</span><br>
+                <label id="lblCell"></label><br>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
